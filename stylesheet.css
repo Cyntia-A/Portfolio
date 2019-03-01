@@ -1,0 +1,79 @@
+body{
+    margin-left:200px;
+    margin-right:200px; 
+}
+.footer{   
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:Center;
+    color:Black;
+    font-size:20px;
+    font-family: 'Supermercado One';
+    background-color:#dad5cd;
+}
+.Labels{
+   border:5px double white;
+   background-color:#e37262;
+   color:	#ffffff;
+   margin:5px;
+   padding:5px;
+}
+.Here{
+   border:5px double white;
+   background-color:#b4574a;
+   color:#ffffff;
+   margin:5px;
+   padding:5px;
+}
+h1{
+    font-family:'Imprima';
+    display:flex;
+    justify-content:center;
+    font-size:40px;
+    text-shadow:4px 4px #dad5cd;
+}    
+.headshot{
+    width:20%;
+   
+}
+.mid{
+    background-color:white;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:50px;
+}
+
+a{
+    text-decoration:none;
+}
+.content{
+    display:flex;
+    text-align:center;
+    padding-top:20px;
+    font-size:20px;
+    font-family:'Tajawal';
+}
+img{
+    width:190px;
+    height:110px;
+    border:2px double black;
+}
+.Egon{
+    display:flex;
+    justify-content:center;
+}
+.Header{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding-top:20px;
+    font-size:20px;
+    font-family:'Rakkas';
+    text-decoration:underline;
+}
+.portfolioImage
+{
+  display:flex;
+  flex-wrap: wrap;
+}
