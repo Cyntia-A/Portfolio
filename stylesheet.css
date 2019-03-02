@@ -1,6 +1,7 @@
 body{
     margin-left:200px;
-    margin-right:200px; 
+    margin-right:200px;
+    background-color:#ead9bf;
 }
 .footer{   
     display:flex;
@@ -9,18 +10,18 @@ body{
     color:Black;
     font-size:20px;
     font-family: 'Supermercado One';
-    background-color:#dad5cd;
+    background-color:White;
 }
 .Labels{
    border:5px double white;
-   background-color:#e37262;
-   color:	#ffffff;
+   background-color:#566d87;
+   color:#ffffff;
    margin:5px;
    padding:5px;
 }
 .Here{
    border:5px double white;
-   background-color:#b4574a;
+   background-color:#4a5069;
    color:#ffffff;
    margin:5px;
    padding:5px;
@@ -53,15 +54,16 @@ a{
     padding-top:20px;
     font-size:20px;
     font-family:'Tajawal';
+    border:2px dashed black;
 }
 img{
     width:190px;
     height:110px;
-    border:2px double black;
 }
-.Egon{
-    display:flex;
-    justify-content:center;
+.abtMeImages{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 .Header{
     display:flex;
@@ -76,4 +78,15 @@ img{
 {
   display:flex;
   flex-wrap: wrap;
+}
+#profilePic
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+    width:390;
+    height:300;
+    
+    border-radius:40px;
 }
